@@ -10,7 +10,7 @@ else
 fi
 
 echo "Activating virtual environment..."
-source "$VENV_DIR/bin/activate"
+source "$VENV_DIR/Scripts/activate"
 
 if [ -f "requirements.txt" ]; then
     echo "Installing dependencies from requirements.txt..."
